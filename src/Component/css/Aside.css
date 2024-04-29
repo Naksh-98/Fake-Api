@@ -1,6 +1,6 @@
 .dropdown {
     display: flex;
-    align-items: center; /* Align items vertically */
+    align-items: center; 
   justify-content: space-between;
 }
 .aside{
@@ -11,8 +11,8 @@
 }
 
 .dropdown-text {
-    flex: 1; /* Take remaining space */
-    margin-right: 10px; /* Add space between text and image */
+    flex: 1; 
+    margin-right: 10px; 
 }
 .dropbtn {
     background-color: #fff;
@@ -23,7 +23,7 @@
     cursor: pointer;
   }
   
-  /* Style the dropdown content (hidden by default) */
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -31,23 +31,23 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
-  /* Style the links inside the dropdown */
+
   .dropdown-content label {
     display: block;
     margin: 5px 0;
   }
   
-  /* Change color of dropdown links on hover */
+
   .dropdown-content label:hover {
     background-color: #f1f1f1;
   }
   
-  /* Show the dropdown menu on click */
+ 
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
   .dropdown:hover .dropbtn {
     background-color: #f1f1f1;
   }
